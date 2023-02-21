@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Input\Day10.txt" />
+    <None Remove="Input\day16.txt" />
+    <None Remove="Input\Day18.txt" />
+    <None Remove="Input\Day21.txt" />
+    <None Remove="Input\Day23.txt" />
+    <None Remove="Input\Day4.txt" />
+    <None Remove="Input\Day6.txt" />
+    <None Remove="Input\Day7.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Input\Day7.txt" />
+    <EmbeddedResource Include="Input\Day23.txt" />
+    <EmbeddedResource Include="Input\Day4.txt" />
+    <EmbeddedResource Include="Input\Day10.txt" />
+    <EmbeddedResource Include="Input\Day6.txt" />
+    <EmbeddedResource Include="Input\Day21.txt" />
+    <EmbeddedResource Include="Input\Day18.txt" />
+    <EmbeddedResource Include="Input\Day16.txt" />
+  </ItemGroup>
+
+</Project>
