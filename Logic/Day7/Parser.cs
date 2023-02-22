@@ -29,7 +29,7 @@ namespace Logic.Day5
                     case ["dir", var name]:
                         var newDir = new Directory(currentFolder, name);
                         currentFolder.SubFolders.Add(name, newDir);
-                        back.Directories.Add(name, newDir);
+                        back.Directories.Add(newDir.FullName, newDir);
                         break;
                     case ["$", "cd", ".."]:
                         currentFolder = currentFolder.Parent ?? currentFolder;

@@ -6,6 +6,8 @@
 
         public string Name { get; }
 
+        public string FullName => (Parent?.FullName ?? string.Empty) + $"/{Name}";
+
         public Dictionary<string, Directory> SubFolders { get; } = new ();
 
         public List<File> Files { get; } = new List<File>();
