@@ -15,4 +15,9 @@ using Logic;
 
 // Console.WriteLine($"Day 23: {await Logic.Day23.Solver.Solve2()}");
 
-Console.WriteLine($"Day 7: {await Logic.Day7.Solver.Solve2()}");
+// Console.WriteLine($"Day 7: {await Logic.Day7.Solver.Solve2()}");
+
+//Console.WriteLine($"Day 8: {await Logic.Day8.Solver.Solve2()}");
+
+
+Console.WriteLine($"Day 19: {await Logic.Day19.Solver.Solve2()}");
