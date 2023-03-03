@@ -20,4 +20,10 @@ using Logic;
 //Console.WriteLine($"Day 8: {await Logic.Day8.Solver.Solve2()}");
 
 
-Console.WriteLine($"Day 19: {await Logic.Day19.Solver.Solve2()}");
+// Console.WriteLine($"Day 19: {await Logic.Day19.Solver.Solve2()}");
+
+// Console.WriteLine($"Day 24: {await Logic.Day24.Solver.Solve2()}");
+
+Console.WriteLine($"Day 22: {await Logic.Day22.Solver.Solve1()}");
+
+Console.WriteLine($"Day 15: {await Logic.Day15.Solver.Solve2()}");
