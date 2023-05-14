@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day15
 {
@@ -10,7 +11,7 @@ namespace Logic.Day15
     {
         public static async Task<List<Sensor>> Read()
         {
-            using var reader = InputLoader.LoadReader(15);
+            using var reader = Loader.LoadReader(15);
 
             var back = new List<Sensor>();
 

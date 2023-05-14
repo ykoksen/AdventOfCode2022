@@ -1,10 +1,12 @@
-﻿namespace Logic.Day23
+﻿using Logic.Input;
+
+namespace Logic.Day23
 {
     public static class Reader
     {
         public static async Task<List<bool[]>> Read()
         {
-            using var reader = InputLoader.LoadReader(23);
+            using var reader = Loader.LoadReader(23);
 
             var back = new List<bool[]>();
 

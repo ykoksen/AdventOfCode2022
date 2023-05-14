@@ -1,10 +1,12 @@
-﻿namespace Logic.Day8
+﻿using Logic.Input;
+
+namespace Logic.Day8
 {
     public static class Reader
     {
         public static async Task<List<List<int>>> Read()
         {
-            using var reader = InputLoader.LoadReader(8);
+            using var reader = Loader.LoadReader(8);
 
             var list = new List<List<int>>();
 

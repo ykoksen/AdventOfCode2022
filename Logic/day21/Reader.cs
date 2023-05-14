@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.day21
 {
@@ -11,7 +12,7 @@ namespace Logic.day21
     {
         public static async Task<Dictionary<string, Expression>> ReadInput()
         {
-            using var reader = InputLoader.LoadReader(21);
+            using var reader = Loader.LoadReader(21);
 
             var back = new Dictionary<string, Expression>();
 

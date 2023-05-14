@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day11
 {
@@ -10,7 +11,7 @@ namespace Logic.Day11
     {
         public static async Task<List<Monkey>> Parse()
         {
-            using var reader = InputLoader.LoadReader(11);
+            using var reader = Loader.LoadReader(11);
 
             var monkeys = new List<Monkey>();
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day6
 {
@@ -10,7 +11,7 @@ namespace Logic.Day6
     {
         public static async Task<string> Read()
         {
-            var reader = InputLoader.LoadReader(6);
+            var reader = Loader.LoadReader(6);
 
             var input = await reader.ReadToEndAsync();
 

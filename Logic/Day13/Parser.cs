@@ -1,10 +1,12 @@
-﻿namespace Logic.Day13
+﻿using Logic.Input;
+
+namespace Logic.Day13
 {
     public static class Parser
     {
         public static async Task<List<Pair>> Read()
         {
-            using var reader = InputLoader.LoadReader(13);
+            using var reader = Loader.LoadReader(13);
 
             var pairs = new List<Pair>();
 
@@ -23,7 +25,7 @@
 
         public static async Task<NeedTask2> Read2()
         {
-            using var reader = InputLoader.LoadReader(13);
+            using var reader = Loader.LoadReader(13);
 
             var pairs = new SortedSet<IItem>(new ItemComparer());
 

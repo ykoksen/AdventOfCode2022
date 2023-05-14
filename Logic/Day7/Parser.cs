@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day5
 {
@@ -10,7 +11,7 @@ namespace Logic.Day5
     {
         public static async Task<FileSystem> Read()
         {
-            using var reader = InputLoader.LoadReader(7);
+            using var reader = Loader.LoadReader(7);
 
             if (await reader.ReadLineAsync() != "$ cd /")
                 throw new Exception("Unexpected first line");

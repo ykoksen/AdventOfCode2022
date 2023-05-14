@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day19
 {
@@ -10,7 +11,7 @@ namespace Logic.Day19
     {
         public static async Task<List<BluePrint>> Parse()
         {
-            using var reader = InputLoader.LoadReader(19);
+            using var reader = Loader.LoadReader(19);
 
             var back = new List<BluePrint>();
 

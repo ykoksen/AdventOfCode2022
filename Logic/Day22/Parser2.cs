@@ -1,10 +1,12 @@
-﻿namespace Logic.Day22
+﻿using Logic.Input;
+
+namespace Logic.Day22
 {
     public static class Parser2
     {
         public static async Task<Information> Parse()
         {
-            using var reader = InputLoader.LoadReader(22);
+            using var reader = Loader.LoadReader(22);
 
             List<string> mapLines = new ();
 

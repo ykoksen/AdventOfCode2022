@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 
-namespace Logic
+namespace Logic.Input
 {
-    public static class InputLoader
+    public static class Loader
     {
         public static Stream Load(int day)
         {

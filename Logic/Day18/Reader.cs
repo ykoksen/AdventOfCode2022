@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day18
 {
@@ -10,7 +11,7 @@ namespace Logic.Day18
     {
         public static async Task<List<Cube>> ReadCubes()
         {
-            using var reader = InputLoader.LoadReader(18);
+            using var reader = Loader.LoadReader(18);
 
             var back = new List<Cube>();
 

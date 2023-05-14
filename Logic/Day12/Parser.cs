@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Input;
 
 namespace Logic.Day12
 {
@@ -10,7 +11,7 @@ namespace Logic.Day12
     {
         public static async Task<Map> ReadInput()
         {
-            using var reader = InputLoader.LoadReader(12);
+            using var reader = Loader.LoadReader(12);
 
             List<List<char>> list = new ();
             List<Position> aChars = new ();

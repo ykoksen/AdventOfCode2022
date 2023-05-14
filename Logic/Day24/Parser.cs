@@ -1,10 +1,12 @@
-﻿namespace Logic.Day24
+﻿using Logic.Input;
+
+namespace Logic.Day24
 {
     public static class Parser
     {
         public static async Task<BlizzardMaze> Read()
         {
-            using var input = InputLoader.LoadReader(24);
+            using var input = Loader.LoadReader(24);
 
             List<IElement> elements = new ();
             Position entrance = new Position(1, 0);

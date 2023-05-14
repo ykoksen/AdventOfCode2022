@@ -1,4 +1,5 @@
 ﻿using System.Collections.Concurrent;
+using Logic.Input;
 
 namespace Logic.Day5
 {
@@ -6,7 +7,7 @@ namespace Logic.Day5
     {
         public static async Task<Package> Read()
         {
-            var input = InputLoader.LoadReader(5);
+            var input = Loader.LoadReader(5);
 
             var stacks = new Stacks();
             var moves = new List<Move>();
